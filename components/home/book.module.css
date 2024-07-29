@@ -1,0 +1,12 @@
+.book {
+  background-color: #883c36;
+  color: white;
+}
+
+.book a {
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: #f7e9de;
+  color: #883c36;
+  font-weight: 600;
+}

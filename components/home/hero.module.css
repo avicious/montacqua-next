@@ -1,0 +1,85 @@
+.hero {
+  background-color: black;
+  background: url("../../public/images/banner-bg.webp");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 80px;
+  color: #fff;
+  max-width: 1720px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  width: 50%;
+  text-align: right;
+  font-family: var(--font-cormorant);
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 100px;
+  line-height: 110px;
+}
+
+.headingSpan {
+  font-size: 80px;
+  line-height: 90px;
+  font-style: italic;
+  display: block;
+}
+
+@media (min-width: 1720px) {
+  .hero {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 990px) {
+  .hero h1 {
+    width: 100%;
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  .headingSpan {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero {
+    padding: 120px 60px;
+  }
+
+  .hero h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .headingSpan {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 60px 40px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  .headingSpan {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
